@@ -43,4 +43,6 @@ print_r($my_array) ."\n";
 //diccionarios (objetos)
 $my_dict = array("clave" => $my_string, "int" => $my_int, "constante" => MY_CONSTANT );
 
-print_r($my_dict);
+print_r($my_dict) . "\n";
+
+echo "el valor de la clave int es $my_dict[int] ";
